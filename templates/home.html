@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> Work Shift Logs</title>
+  </head>
+  <style>
+    h1{
+      text-align: center;
+    }
+
+    body{
+      text-align: center;
+    }
+    #banner{
+      width:100%;
+      height:1000px;
+    }
+  </style>
+  <body>
+    <h1>Work Shift Log</h1>
+    <label for="Name">Name</label>
+    <input type=text id=Name name=Name required>
+    <br>
+
+    <label for="shiftstart">Shift Start :</label>
+    <input type="datetime-local" id=shiftstart name=shiftstart required>
+    <br>
+
+    <label for="shiftend">Shift End :</label>
+    <input type="datetime-local" id=shiftend name=shiftend required>
+    <br>
+
+    <label for="picture">Picture</label>
+    <input type="file" id=picture name=picture accept="image/*" required>
+    <br>
+
+    <button>Submit</button>
+
+    <img id="banner" src="https://webapp--aryankhetarpal.repl.co/static/pic.jpg">
+    
+  </body>
+</html>
